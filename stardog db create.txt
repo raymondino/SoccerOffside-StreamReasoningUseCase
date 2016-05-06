@@ -1,0 +1,8 @@
+1. create a db
+stardog_directory/bin stardog-admin db create -n aDB -c ../stardog.property (in stardog.property, you specify your data base configuration)
+
+2. to drop a db
+stardog_directory/bin stardog-admin db drop aDB (drop a database named aDB)
+
+3. to get the information of one database
+stardog_directory/bin stardog-admin metadata get aDB

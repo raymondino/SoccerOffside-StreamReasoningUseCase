@@ -190,7 +190,6 @@ public class SemanticImportance {
 	
 	public void run() {
 		long runStartTime = System.currentTimeMillis(); // system timer starts
-		System.out.println("[INFO] Start " + mode);
 		client.clearGraph(); // empty the database before starts
 		
 		// read in the streaming data
@@ -924,8 +923,7 @@ public class SemanticImportance {
 	// execute the continuous query
 	private void queryExecution(String ts) {
 		// flag to indicate if the offside query gives the result or not
-		Boolean hasResult = false;
-		
+		Boolean hasResult = false;		
 		String offsideQuery = "select ?s where {?s <" + RDF.TYPE + "> <" + prefix + "PlayerCommitsOffsideOffence>.}";		
 		long queryStartTime = System.currentTimeMillis();
 		TupleQueryResult resultSet = client.getAReasoningConn().select(offsideQuery).execute();

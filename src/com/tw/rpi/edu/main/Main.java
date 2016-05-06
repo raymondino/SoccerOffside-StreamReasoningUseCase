@@ -81,7 +81,7 @@ public class Main {
 		
 		for(String i:streamingDataPaths) {			
 			// run strategies without domain literate & cache eviction
-/*			for(String s:strategies) {
+			for(String s:strategies) {
 				try {
 					metricRecorder = new PrintWriter(new FileOutputStream(new File("files/" + s + "_evaluation.txt"), true));
 				} catch (FileNotFoundException e) {
@@ -89,10 +89,11 @@ public class Main {
 					e.printStackTrace();
 				}
 				metricRecorder.println(s);// print out the current strategy
+				System.out.println("[INFO] Start " + s);				
 				SemanticImportance si = new SemanticImportance(s, client, i, metricRecorder, prefix, graph);
 				si.run();
 			}
-*/			
+			
 			// run strategies with only domain literate
 			for(String s:strategies) {
 				try {
@@ -102,6 +103,7 @@ public class Main {
 					e.printStackTrace();
 				}
 				metricRecorder.println(s + "_DL");// print out the current strategy
+				System.out.println("[INFO] Start " + s + "_DL");
 				SemanticImportance si = new SemanticImportance(s, client, i, metricRecorder, "dl", prefix, graph);
 				si.run();
 			}
@@ -115,6 +117,7 @@ public class Main {
 						e.printStackTrace();
 					}
 					metricRecorder.println(s + "_E_" + v);// print out the current strategy
+					System.out.println("[INFO] Start " + s + "_E_" + v);
 					SemanticImportance si = new SemanticImportance(s, client, i, metricRecorder, v, prefix, graph);
 					si.run();
 				}
@@ -130,6 +133,7 @@ public class Main {
 						e.printStackTrace();
 					}
 					metricRecorder.println(s + "_DL_E_" + v);// print out the current strategy
+					System.out.println("[INFO] Start " + s + "_DL_E_" + v);
 					SemanticImportance si = new SemanticImportance(s, client, i, metricRecorder, "dl", v, prefix, graph);
 					si.run();
 				}
