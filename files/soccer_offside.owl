@@ -1,0 +1,1064 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Soccer_Offside "http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/" >
+]>
+
+
+<rdf:RDF xmlns="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/"
+     xml:base="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Soccer_Offside="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/">
+        <owl:versionIRI rdf:resource="&Soccer_Offside;1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/hasPosition -->
+
+    <owl:ObjectProperty rdf:about="&Soccer_Offside;hasPosition">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="&Soccer_Offside;Position"/>
+        <owl:inverseOf rdf:resource="&Soccer_Offside;isPositionOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Ball"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;Glove"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;Player"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;Referee"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/hasTeam -->
+
+    <owl:ObjectProperty rdf:about="&Soccer_Offside;hasTeam">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&Soccer_Offside;Player"/>
+        <rdfs:range rdf:resource="&Soccer_Offside;Team"/>
+        <owl:inverseOf rdf:resource="&Soccer_Offside;isTeamOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/hasTeammate -->
+
+    <owl:ObjectProperty rdf:about="&Soccer_Offside;hasTeammate">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:domain rdf:resource="&Soccer_Offside;Player"/>
+        <rdfs:range rdf:resource="&Soccer_Offside;Player"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/isInvolvedIn -->
+
+    <owl:ObjectProperty rdf:about="&Soccer_Offside;isInvolvedIn">
+        <rdfs:range rdf:resource="&Soccer_Offside;ActivePlay"/>
+        <rdfs:domain rdf:resource="&Soccer_Offside;Player"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/isNearerToDefenderGoalLineThan -->
+
+    <owl:ObjectProperty rdf:about="&Soccer_Offside;isNearerToDefenderGoalLineThan">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Ball"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;Player"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;Position"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Ball"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;Player"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;Position"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/isOpponentOf -->
+
+    <owl:ObjectProperty rdf:about="&Soccer_Offside;isOpponentOf">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:range rdf:resource="&Soccer_Offside;Player"/>
+        <rdfs:domain rdf:resource="&Soccer_Offside;Player"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/isPositionOf -->
+
+    <owl:ObjectProperty rdf:about="&Soccer_Offside;isPositionOf">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&Soccer_Offside;Position"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Ball"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;Glove"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;Player"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;Referee"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/isTeamOf -->
+
+    <owl:ObjectProperty rdf:about="&Soccer_Offside;isTeamOf">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="&Soccer_Offside;Player"/>
+        <rdfs:domain rdf:resource="&Soccer_Offside;Team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/playsAgainst -->
+
+    <owl:ObjectProperty rdf:about="&Soccer_Offside;playsAgainst">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:domain rdf:resource="&Soccer_Offside;Player"/>
+        <rdfs:range rdf:resource="&Soccer_Offside;Player"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&Soccer_Offside;hasTeammate"/>
+            <rdf:Description rdf:about="&Soccer_Offside;isOpponentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/touches -->
+    <!--
+        I commented the functional property of touches. This is a tentative approach to solve the 
+        inconsistency problem when different ball becomes in field ball, the player touches both the
+        previous ball and current in field ball. The functional property will cause the reasoning
+        inconsitency here. However, a constructive solution is to go to the code, in the ballWindow()
+        function, when a backupball becomes an infieldball, the ball toucher infomration should be 
+        deleted from the uniqueData, cache and triplestore. The ball toucher information includes 
+        <player, touches, ball>, <player, isInvolvedIn, ball_touch> 
+    -->
+    <owl:ObjectProperty rdf:about="&Soccer_Offside;touches">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/> 
+        <rdfs:range rdf:resource="&Soccer_Offside;Ball"/>
+        <rdfs:domain rdf:resource="&Soccer_Offside;Player"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/ActivePlay -->
+
+    <owl:Class rdf:about="&Soccer_Offside;ActivePlay">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;ball_touch"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;opponent_challenge"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/Attacker -->
+
+    <owl:Class rdf:about="&Soccer_Offside;Attacker">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;BallLastToucher"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;hasTeammate"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;BallLastToucher"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Player"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/AttackerPosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;AttackerPosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Position"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;Attacker"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/BackupBall -->
+
+    <owl:Class rdf:about="&Soccer_Offside;BackupBall">
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Ball"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/BackupBallPosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;BackupBallPosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;BallPosition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;BackupBall"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;BallPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/Ball -->
+
+    <owl:Class rdf:about="&Soccer_Offside;Ball">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;ball10"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;ball8"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;ball4"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;ball12"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/BallLastToucher -->
+
+    <owl:Class rdf:about="&Soccer_Offside;BallLastToucher">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Player"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;touches"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;Ball"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Player"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/BallPosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;BallPosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Position"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;Ball"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/Defender -->
+
+    <owl:Class rdf:about="&Soccer_Offside;Defender">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Player"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;playsAgainst"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;Attacker"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Player"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/DefenderButNotSecondLastDefender -->
+
+    <owl:Class rdf:about="&Soccer_Offside;DefenderButNotSecondLastDefender">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Defender"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;NotSecondLastPlayer"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Defender"/>
+        <owl:disjointWith rdf:resource="&Soccer_Offside;SecondLastDefender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/DefenderPosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;DefenderPosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Position"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;Defender"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/Glove -->
+
+    <owl:Class rdf:about="&Soccer_Offside;Glove">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_B_right_glove"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_A_right_glove"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_B_left_glove"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_A_left_glove"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/GlovePosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;GlovePosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Position"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;Glove"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/InFieldBall -->
+
+    <owl:Class rdf:about="&Soccer_Offside;InFieldBall">
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Ball"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/InFieldBallPosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;InFieldBallPosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;BallPosition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;InFieldBall"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;BallPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/NotSecondLastDefenderPosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;NotSecondLastDefenderPosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;DefenderPosition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;DefenderButNotSecondLastDefender"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;DefenderPosition"/>
+        <owl:disjointWith rdf:resource="&Soccer_Offside;SecondLastDefenderPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/NotSecondLastPlayer -->
+
+    <owl:Class rdf:about="&Soccer_Offside;NotSecondLastPlayer">
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Player"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/OffsideIrrelevantPosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;OffsideIrrelevantPosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;BackupBallPosition"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;GlovePosition"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;NotSecondLastDefenderPosition"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;RefereePosition"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&Soccer_Offside;AttackerPosition"/>
+                            <rdf:Description rdf:about="&Soccer_Offside;OwnHalfPosition"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/OffsidePosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;OffsidePosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;AttackerPosition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;PlayerAtOffsidePosition"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;AttackerPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/OwnHalfPosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;OwnHalfPosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Position"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;PlayerInOwnHalf"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/Player -->
+
+    <owl:Class rdf:about="&Soccer_Offside;Player">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_A"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_B5"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_A6"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_B4"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_A5"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_A4"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_B7"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_A3"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_B6"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_A7"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_B1"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_A2"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_A1"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_B3"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;player_B2"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_B"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/PlayerAtOffsidePosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;PlayerAtOffsidePosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Attacker"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isNearerToDefenderGoalLineThan"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;InFieldBall"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isNearerToDefenderGoalLineThan"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;SecondLastDefender"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Attacker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/PlayerCommitsOffsideOffence -->
+
+    <owl:Class rdf:about="&Soccer_Offside;PlayerCommitsOffsideOffence">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;PlayerAtOffsidePosition"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;PlayerInvolvedInActivePlay"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/PlayerInOwnHalf -->
+
+    <owl:Class rdf:about="&Soccer_Offside;PlayerInOwnHalf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Player"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&Soccer_Offside;PlayerNotInOwnHalf"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Player"/>
+        <owl:disjointWith rdf:resource="&Soccer_Offside;PlayerNotInOwnHalf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/PlayerInvolvedInActivePlay -->
+
+    <owl:Class rdf:about="&Soccer_Offside;PlayerInvolvedInActivePlay">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Player"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isInvolvedIn"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;ActivePlay"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/PlayerNotInOwnHalf -->
+
+    <owl:Class rdf:about="&Soccer_Offside;PlayerNotInOwnHalf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Player"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&Soccer_Offside;PlayerInOwnHalf"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Player"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/Position -->
+
+    <owl:Class rdf:about="&Soccer_Offside;Position"/>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/Referee -->
+
+    <owl:Class rdf:about="&Soccer_Offside;Referee">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;referee"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/RefereePosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;RefereePosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Position"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:hasValue rdf:resource="&Soccer_Offside;referee"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/SecondLastDefender -->
+
+    <owl:Class rdf:about="&Soccer_Offside;SecondLastDefender">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;Defender"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;SecondLastPlayer"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Defender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/SecondLastDefenderPosition -->
+
+    <owl:Class rdf:about="&Soccer_Offside;SecondLastDefenderPosition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;DefenderPosition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&Soccer_Offside;isPositionOf"/>
+                        <owl:someValuesFrom rdf:resource="&Soccer_Offside;SecondLastDefender"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;DefenderPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/SecondLastPlayer -->
+
+    <owl:Class rdf:about="&Soccer_Offside;SecondLastPlayer">
+        <rdfs:subClassOf rdf:resource="&Soccer_Offside;Player"/>
+    </owl:Class>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/Team -->
+
+    <owl:Class rdf:about="&Soccer_Offside;Team">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&Soccer_Offside;teamA"/>
+                    <rdf:Description rdf:about="&Soccer_Offside;teamB"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/ball10 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;ball10">
+        <rdf:type rdf:resource="&Soccer_Offside;Ball"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/ball12 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;ball12">
+        <rdf:type rdf:resource="&Soccer_Offside;Ball"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/ball4 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;ball4">
+        <rdf:type rdf:resource="&Soccer_Offside;Ball"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/ball8 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;ball8">
+        <rdf:type rdf:resource="&Soccer_Offside;Ball"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/ball_touch -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;ball_touch">
+        <rdf:type rdf:resource="&Soccer_Offside;ActivePlay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_A -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;goalkeeper_A">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <isOpponentOf rdf:resource="&Soccer_Offside;goalkeeper_B"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_A1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_A_left_glove -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;goalkeeper_A_left_glove">
+        <rdf:type rdf:resource="&Soccer_Offside;Glove"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_A_right_glove -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;goalkeeper_A_right_glove">
+        <rdf:type rdf:resource="&Soccer_Offside;Glove"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_B -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;goalkeeper_B">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_B1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_B_left_glove -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;goalkeeper_B_left_glove">
+        <rdf:type rdf:resource="&Soccer_Offside;Glove"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/goalkeeper_B_right_glove -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;goalkeeper_B_right_glove">
+        <rdf:type rdf:resource="&Soccer_Offside;Glove"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/opponent_challenge -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;opponent_challenge">
+        <rdf:type rdf:resource="&Soccer_Offside;ActivePlay"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A1 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_A1">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_A2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A2 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_A2">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_A3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A3 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_A3">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_A4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A4 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_A4">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_A5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A5 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_A5">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_A6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_A6">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_A7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_A7">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;goalkeeper_A"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_B1">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_B2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B2 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_B2">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_B3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B3 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_B3">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_B4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B4 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_B4">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_B5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B5 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_B5">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_B6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B6 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_B6">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;player_B7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B7 -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;player_B7">
+        <rdf:type rdf:resource="&Soccer_Offside;Player"/>
+        <hasTeammate rdf:resource="&Soccer_Offside;goalkeeper_B"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/referee -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;referee">
+        <rdf:type rdf:resource="&Soccer_Offside;Referee"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/teamA -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;teamA">
+        <rdf:type rdf:resource="&Soccer_Offside;Team"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/teamB -->
+
+    <owl:NamedIndividual rdf:about="&Soccer_Offside;teamB">
+        <rdf:type rdf:resource="&Soccer_Offside;Team"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&Soccer_Offside;ball10"/>
+            <rdf:Description rdf:about="&Soccer_Offside;ball12"/>
+            <rdf:Description rdf:about="&Soccer_Offside;ball4"/>
+            <rdf:Description rdf:about="&Soccer_Offside;ball8"/>
+            <rdf:Description rdf:about="&Soccer_Offside;ball_touch"/>
+            <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_A"/>
+            <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_A_left_glove"/>
+            <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_A_right_glove"/>
+            <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_B"/>
+            <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_B_left_glove"/>
+            <rdf:Description rdf:about="&Soccer_Offside;goalkeeper_B_right_glove"/>
+            <rdf:Description rdf:about="&Soccer_Offside;opponent_challenge"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_A1"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_A2"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_A3"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_A4"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_A5"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_A6"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_A7"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_B1"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_B2"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_B3"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_B4"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_B5"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_B6"/>
+            <rdf:Description rdf:about="&Soccer_Offside;player_B7"/>
+            <rdf:Description rdf:about="&Soccer_Offside;referee"/>
+            <rdf:Description rdf:about="&Soccer_Offside;teamA"/>
+            <rdf:Description rdf:about="&Soccer_Offside;teamB"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
