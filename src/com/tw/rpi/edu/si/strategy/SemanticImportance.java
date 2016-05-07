@@ -274,20 +274,18 @@ public class SemanticImportance {
 		
 		// writing benchmarks
 		runningTime = (System.currentTimeMillis() - runStartTime);
-		metricRecorder.println("running time = " + runningTime/1000.0 +" seconds");
 		metricRecorder.println("throughtput = " + (tripleCount/(runningTime/1000.0)) + " triples/second");
 		metricRecorder.println("average sparql time = " + ((this.queryTotalTime/1000.0)/this.queryCount + " second"));
 		if(!mode.contains("FIFO")) { // if LRU or LFU
 			metricRecorder.println("average explanation time = " + (this.explanationTime/1000.0)/this.explanationCount + " second");			
 		}
-		if(e) { // if eviction
-			metricRecorder.println("eviction rate = " + (evictionCount/(this.evictionTotalTime/1000.0)) + " triples/second");			
-		}
+		metricRecorder.println("eviction rate = " + (evictionCount/(this.evictionTotalTime/1000.0)) + " triples/second");			
 		if(dl){ // if domain literate
 			metricRecorder.println("average filter time = " + (this.filterTotalTime/1000.0)/this.filterCount + " second");
 			metricRecorder.println("average filtered triples = " + this.filteredTriples/this.filterCount * 1.0);
 		}
 		metricRecorder.println("maxTripleUsed = " + maxTripleUsed);
+		metricRecorder.println();
 		metricRecorder.flush();
 	}
 	

@@ -58,10 +58,10 @@ public class Main {
 		PrintWriter metricRecorder = null;
 		
 		ArrayList<String> streamingDataPaths = new ArrayList<String>();
-		streamingDataPaths.add("data/sample-data-1st-02m53s");
-		streamingDataPaths.add("data/sample-data-1st-04m26s");
-		streamingDataPaths.add("data/sample-data-1st-07m04s");
-		streamingDataPaths.add("data/sample-data-1st-12m21s");
+//		streamingDataPaths.add("data/sample-data-1st-02m53s");
+//		streamingDataPaths.add("data/sample-data-1st-04m26s");
+//		streamingDataPaths.add("data/sample-data-1st-07m04s");
+//		streamingDataPaths.add("data/sample-data-1st-12m21s");
 		streamingDataPaths.add("data/sample-data-1st-12m44s");
 		streamingDataPaths.add("data/sample-data-1st-15m28s");
 		streamingDataPaths.add("data/sample-data-1st-20m40s");
