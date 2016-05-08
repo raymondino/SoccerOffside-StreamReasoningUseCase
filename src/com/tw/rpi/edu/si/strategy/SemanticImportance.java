@@ -15,6 +15,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.time.LocalTime;
 import java.util.Map;
+import java.util.PriorityQueue;
 import java.util.Set;
 
 import org.openrdf.model.Statement;
@@ -55,7 +56,7 @@ public class SemanticImportance {
 	// data management
 	private String data;
 	private Map<String, Integer> sampling;	
-	private List<ComparableStatement> cache;
+	private PriorityQueue<ComparableStatement> cache;
 	private Set<Statement> uniqueData;
 	private String ballToucher; // keep track of who touches the ball
 	private String inFieldBall; // keep track of the current ball being played
@@ -151,7 +152,7 @@ public class SemanticImportance {
 	private void initialization() {
 		data = null;
 		sampling = new HashMap<String, Integer>();
-		cache = new ArrayList<ComparableStatement>();
+		cache = new PriorityQueue<ComparableStatement>();
 		uniqueData = new HashSet<Statement>();		
 		ballToucher = null;
 		inFieldBall = null;
@@ -209,7 +210,7 @@ public class SemanticImportance {
 					if(sampling.get(s) == null) {
 						sampling.put(s, 1);
 						if(e && cache.size() >= (int) cacheSize*cachePercentage) {
-							System.out.println("[INFO] data evicting ...");
+							//System.out.println("[INFO] data evicting ...");
 							dataEviction();
 						}
 						loadStreamingData(s, p, o, gts, ts);
@@ -217,7 +218,7 @@ public class SemanticImportance {
 					// has record, check if it reaches to the sampling limit
 					else if (sampling.get(s) <= personSampling) {
 						if(e && cache.size() >= (int) cacheSize*cachePercentage) {
-							System.out.println("[INFO] data evicting ...");
+							//System.out.println("[INFO] data evicting ...");
 							dataEviction();
 						}
 						sampling.put(s, sampling.get(s) + 1);
@@ -226,7 +227,7 @@ public class SemanticImportance {
 					else {
 						sampling.put(s, 1);
 						if(e && cache.size() >= (int) cacheSize*cachePercentage) {
-							System.out.println("[INFO] data evicting ...");
+							//System.out.println("[INFO] data evicting ...");
 							dataEviction();
 						}
 						loadStreamingData(s, p, o, gts, ts);
@@ -238,7 +239,7 @@ public class SemanticImportance {
 					if(sampling.get(s) == null) {
 						sampling.put(s, 1);
 						if(e && cache.size() >= (int) cacheSize*cachePercentage) {
-							System.out.println("[INFO] data evicting ...");
+							//System.out.println("[INFO] data evicting ...");
 							dataEviction();
 						}
 						loadStreamingData(s, p, o, gts, ts);
@@ -251,7 +252,7 @@ public class SemanticImportance {
 					else {
 						sampling.put(s, 1);
 						if(e && cache.size() >= (int) cacheSize*cachePercentage) {
-							System.out.println("[INFO] data evicting ...");
+							//System.out.println("[INFO] data evicting ...");
 							dataEviction();
 						}
 						loadStreamingData(s, p, o, gts, ts);
@@ -261,7 +262,7 @@ public class SemanticImportance {
 					// else read in the data
 					if(e && cache.size() >= (int) cacheSize*cachePercentage) {
 						// evict the data
-						System.out.println("[INFO] data evicting ...");
+						//System.out.println("[INFO] data evicting ...");
 						dataEviction();
 					}
 					loadStreamingData(s, p, o, gts, ts);					
@@ -1053,7 +1054,6 @@ public class SemanticImportance {
 		TupleQueryResult results = client.getAReasoningConn().select(queryString).execute();
 		while(results.hasNext()) {
 			this.filteredTriples++;
-			System.out.println(filteredTriples);
 			String result = results.next().getValue("s").toString();
 			Statement toFilter = Values.statement(Values.iri(result.substring(0, result.indexOf("position"))), Values.iri(prefix + "hasPosition"), Values.iri(result));
 			if(uniqueData.remove(toFilter)) {
@@ -1113,16 +1113,16 @@ public class SemanticImportance {
 		if(!mode.contains("FIFO")) {
 			queryRelex();		
 		}
-		try{
+/*		try{
 			Collections.sort(cache, new ComparableStatementComparator());
 		}
 		catch(Exception e){
 			e.printStackTrace();
 		}
-		int evictionLimit = (int) (cache.size() * evictionUpperLimit);
+*/		int evictionLimit = (int) (cache.size() * evictionUpperLimit);
 		int currentEviction = 0;
 		while(currentEviction <= evictionLimit){
-			Statement toEvict = cache.remove(0).getStats();
+			Statement toEvict = cache.poll().getStats();
 			uniqueData.remove(toEvict); // delete from uniqueData
 			// update the program status
 			if(toEvict.getPredicate().toString().equals("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")) {
