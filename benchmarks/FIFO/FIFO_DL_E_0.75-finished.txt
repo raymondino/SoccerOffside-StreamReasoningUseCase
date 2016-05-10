@@ -171,3 +171,11 @@ average filter time = 0.703 second
 average filtered triples = 8.0
 maxTripleUsed = 41
 
+FIFO_DL_E_0.75
+data/sample-data-2nd-28m24s
+throughtput = 288.6387475097323 triples/second
+average sparql time = 0.203 second
+eviction rate = 24.263431542461007 triples/second
+average filter time = 0.633 second
+average filtered triples = 7.0
+maxTripleUsed = 41

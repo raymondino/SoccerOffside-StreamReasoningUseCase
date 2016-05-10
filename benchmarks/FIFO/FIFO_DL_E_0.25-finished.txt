@@ -304,3 +304,29 @@ average filter time = 0.06292660550458716 second
 average filtered triples = 0.0
 maxTripleUsed = 13
 
+FIFO_DL_E_0.25
+data/sample-data-2nd-28m24s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.443
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.4553
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.462
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.463
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.4702
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.4876
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.4942
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.4973
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.4993
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5019
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5034
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5045
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5229
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5424
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5434
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5649
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5705
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5726
+throughtput = 9.212926408486624 triples/second
+average sparql time = 0.04034862385321101 second
+eviction rate = 7.3282873117829785 triples/second
+average filter time = 0.1131559633027523 second
+average filtered triples = 0.0
+maxTripleUsed = 13

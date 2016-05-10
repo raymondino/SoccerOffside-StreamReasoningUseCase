@@ -200,3 +200,12 @@ average filter time = 0.5085 second
 average filtered triples = 7.0
 maxTripleUsed = 41
 
+LFU_DL_E_0.75
+data/sample-data-2nd-28m24s
+throughtput = 591.9071472910741 triples/second
+average sparql time = 0.1875 second
+average explanation time = 0.03229840546697039 second
+eviction rate = 118.82501160400504 triples/second
+average filter time = 0.305 second
+average filtered triples = 5.0
+maxTripleUsed = 41

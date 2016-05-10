@@ -197,3 +197,13 @@ eviction rate = 116.9593223330098 triples/second
 average filter time = 0.086 second
 average filtered triples = 2.0
 maxTripleUsed = 27
+
+LFU_DL_E_0.5
+data/sample-data-2nd-28m24s
+throughtput = 121.52179357418174 triples/second
+average sparql time = 0.047 second
+average explanation time = 0.015574496644295301 second
+eviction rate = 115.71602301714422 triples/second
+average filter time = 0.1095 second
+average filtered triples = 2.0
+maxTripleUsed = 27
