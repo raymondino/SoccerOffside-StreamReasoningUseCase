@@ -1,0 +1,170 @@
+LFU_E_0.75
+data/sample-data-1st-02m53s
+running time = 41.379 seconds
+throughtput = 449.18920225235024 triples/second
+average sparql time = 0.64 second
+average explanation time = 0.04039148936170213 second
+eviction rate = 434.5697608736584 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-1st-04m26s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.1401
+running time = 107.169 seconds
+throughtput = 315.7162985564856 triples/second
+average sparql time = 0.2665 second
+average explanation time = 0.06467727771679473 second
+eviction rate = 196.84341195247382 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-1st-07m04s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 7:7.0811
+running time = 70.735 seconds
+throughtput = 521.6936452958224 triples/second
+average sparql time = 0.2735 second
+average explanation time = 0.055525795828759605 second
+eviction rate = 194.86552567237163 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-1st-12m21s
+running time = 63.179 seconds
+throughtput = 205.97033824530303 triples/second
+average sparql time = 0.212 second
+average explanation time = 0.04644583333333333 second
+eviction rate = 509.41606828343043 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-1st-12m44s
+throughtput = 58.53874439668825 triples/second
+average sparql time = 0.5505 second
+average explanation time = 0.05242644628099174 second
+eviction rate = 13.472696060322912 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-1st-15m28s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.3045
+throughtput = 167.1783482483071 triples/second
+average sparql time = 0.738 second
+average explanation time = 0.10363405088062623 second
+eviction rate = 89.7453403427323 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-1st-20m40s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 20:43.0237
+throughtput = 169.81701894909213 triples/second
+average sparql time = 0.7655 second
+average explanation time = 0.050452802359882004 second
+eviction rate = 21.88774685518146 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-1st-21m11s
+throughtput = 99.93373055553911 triples/second
+average sparql time = 0.635 second
+average explanation time = 0.04761398601398601 second
+eviction rate = 29.351731583475313 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-1st-22m07s
+throughtput = 25.641250711362932 triples/second
+average sparql time = 0.3016666666666667 second
+average explanation time = 0.04245375 second
+eviction rate = 12.336450366781712 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-1st-23m04s
+throughtput = 71.59254767023597 triples/second
+average sparql time = 3.639 second
+average explanation time = 0.06818222222222223 second
+eviction rate = 6.850421604494335 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-2nd-00m52s
+throughtput = 472.2182511317608 triples/second
+average sparql time = 0.204 second
+average explanation time = 0.03819241982507288 second
+eviction rate = 160.08437303653173 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-2nd-10m30s
+throughtput = 309.95454432136415 triples/second
+average sparql time = 0.1795 second
+average explanation time = 0.024502654867256637 second
+eviction rate = 170.236647647554 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-2nd-10m45s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A1 commits offside foul at 10:46.1604
+throughtput = 321.82883341823737 triples/second
+average sparql time = 0.2075 second
+average explanation time = 0.04562527716186253 second
+eviction rate = 169.3928472414749 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-2nd-12m16s
+throughtput = 1053.1267428044907 triples/second
+average sparql time = NaN second
+average explanation time = 0.014607960199004974 second
+eviction rate = 105.84727513665729 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-2nd-17m38s
+throughtput = 443.2715434513253 triples/second
+average sparql time = 0.173 second
+average explanation time = 0.035105555555555557 second
+eviction rate = 110.18694230225704 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-2nd-20m25s
+throughtput = 529.1805099089256 triples/second
+average sparql time = 0.18766666666666665 second
+average explanation time = 0.03128218181818182 second
+eviction rate = 129.1022013156444 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-2nd-21m43s
+throughtput = 361.33709442241394 triples/second
+average sparql time = 0.4083333333333334 second
+average explanation time = 0.0451811320754717 second
+eviction rate = 142.25053078556263 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-2nd-24m46s
+throughtput = 508.7831701521504 triples/second
+average sparql time = 0.1775 second
+average explanation time = 0.034714960629921264 second
+eviction rate = 126.73687478976376 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-2nd-28m11s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:12.9889
+throughtput = 470.1028679437316 triples/second
+average sparql time = 3.477 second
+average explanation time = 0.039740528128587825 second
+eviction rate = 127.9887482419128 triples/second
+maxTripleUsed = 41
+
+LFU_E_0.75
+data/sample-data-2nd-28m24s
+throughtput = 596.3363463817966 triples/second
+average sparql time = 0.172 second
+average explanation time = 0.033290047393364934 second
+eviction rate = 116.7012101357224 triples/second
+maxTripleUsed = 41
+

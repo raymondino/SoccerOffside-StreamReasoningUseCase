@@ -1,0 +1,144 @@
+FIFO_E_0.75
+data/sample-data-1st-02m53s
+running time = 21.662 seconds
+throughtput = 858.0463484442804 triples/second
+average sparql time = 0.6195 second
+eviction rate = 451.4487079091621 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-1st-04m26s
+running time = 32.202 seconds
+throughtput = 1050.7111359542887 triples/second
+average sparql time = 0.692 second
+eviction rate = 342.8895534701454 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-1st-07m04s
+running time = 21.234 seconds
+throughtput = 1737.8732221908258 triples/second
+average sparql time = 0.681 second
+eviction rate = 190.1467255159251 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-1st-12m21s
+running time = 49.351 seconds
+throughtput = 263.6826001499463 triples/second
+average sparql time = 0.25366666666666665 second
+eviction rate = 407.01071080817917 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-1st-12m44s
+running time = 46.737 seconds
+throughtput = 597.1072169801228 triples/second
+average sparql time = 0.6175 second
+eviction rate = 300.1844709039074 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-1st-15m28s
+throughtput = 225.80360556421493 triples/second
+average sparql time = 1.79425 second
+eviction rate = 80.3320717861067 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-1st-20m40s
+throughtput = 236.80996523212121 triples/second
+average sparql time = 0.725 second
+eviction rate = 23.405273825407654 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-1st-21m11s
+throughtput = 109.95589264497649 triples/second
+average sparql time = 0.676 second
+eviction rate = 29.192671632776324 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-1st-22m07s
+throughtput = 79.3567067442108 triples/second
+average sparql time = 1.4886666666666668 second
+eviction rate = 37.54076996738402 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-1st-23m04s
+throughtput = 80.451365327468 triples/second
+average sparql time = 3.9685 second
+eviction rate = 6.691169541042314 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-2nd-00m52s
+throughtput = 1068.81302917543 triples/second
+average sparql time = 3.016 second
+eviction rate = 174.18021643373757 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-2nd-10m30s
+throughtput = 430.09351613758747 triples/second
+average sparql time = 0.172 second
+eviction rate = 172.43205667185276 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-2nd-10m45s
+throughtput = 485.36649780317396 triples/second
+average sparql time = 0.2075 second
+eviction rate = 167.51233752693403 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-2nd-12m16s
+throughtput = 1744.9578143832864 triples/second
+average sparql time = NaN second
+eviction rate = 108.02203477362713 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-2nd-17m38s
+throughtput = 647.0150179967729 triples/second
+average sparql time = 0.133 second
+eviction rate = 111.9555446596388 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-2nd-20m25s
+throughtput = 917.1361611646568 triples/second
+average sparql time = 0.19866666666666666 second
+eviction rate = 136.1933015848232 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-2nd-21m43s
+throughtput = 788.5799256505576 triples/second
+average sparql time = 0.3068 second
+eviction rate = 148.54738529352835 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-2nd-24m46s
+throughtput = 917.2189514998598 triples/second
+average sparql time = 0.4455 second
+eviction rate = 128.94189432810984 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-2nd-28m11s
+throughtput = 936.4048848771541 triples/second
+average sparql time = 0.568 second
+eviction rate = 128.92780043175821 triples/second
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-2nd-28m24s
+throughtput = 1386.5611578911771 triples/second
+average sparql time = 0.2345 second
+eviction rate = 120.00308987679117 triples/second
+maxTripleUsed = 41

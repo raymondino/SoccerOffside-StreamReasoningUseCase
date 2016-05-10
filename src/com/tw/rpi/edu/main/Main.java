@@ -46,7 +46,7 @@ public class Main {
 		ArrayList<String> strategies = new ArrayList<String>();
 		ArrayList<Double> cachePercentage = new ArrayList<Double>();
 		
-//		strategies.add("FIFO");
+		strategies.add("FIFO");
 		strategies.add("LFU");
 		strategies.add("LRU");
 		
@@ -58,12 +58,12 @@ public class Main {
 		PrintWriter metricRecorder = null;
 		
 		ArrayList<String> streamingDataPaths = new ArrayList<String>();
-//		streamingDataPaths.add("data/sample-data-1st-02m53s");
-//		streamingDataPaths.add("data/sample-data-1st-04m26s");
-//		streamingDataPaths.add("data/sample-data-1st-07m04s");
-//		streamingDataPaths.add("data/sample-data-1st-12m21s");
+		streamingDataPaths.add("data/sample-data-1st-02m53s");
+		streamingDataPaths.add("data/sample-data-1st-04m26s");
+		streamingDataPaths.add("data/sample-data-1st-07m04s");
+		streamingDataPaths.add("data/sample-data-1st-12m21s");
 		streamingDataPaths.add("data/sample-data-1st-12m44s");
-/*		streamingDataPaths.add("data/sample-data-1st-15m28s");
+		streamingDataPaths.add("data/sample-data-1st-15m28s");
 		streamingDataPaths.add("data/sample-data-1st-20m40s");
 		streamingDataPaths.add("data/sample-data-1st-21m11s");
 		streamingDataPaths.add("data/sample-data-1st-22m07s");
@@ -78,10 +78,10 @@ public class Main {
 		streamingDataPaths.add("data/sample-data-2nd-24m46s");
 		streamingDataPaths.add("data/sample-data-2nd-28m11s");
 		streamingDataPaths.add("data/sample-data-2nd-28m24s");
-*/		
+		
 		for(String i:streamingDataPaths) {			
 			// run strategies without domain literate & cache eviction
-/*			for(String s:strategies) {
+			for(String s:strategies) {
 				try {
 					metricRecorder = new PrintWriter(new FileOutputStream(new File("files/" + s + "_evaluation.txt"), true));
 				} catch (FileNotFoundException e) {
@@ -108,7 +108,7 @@ public class Main {
 				si.run();
 			}
 			// run strategies with only eviction
-*/			for(String s:strategies) {
+			for(String s:strategies) {
 				for(double v:cachePercentage){
 					try {
 						metricRecorder = new PrintWriter(new FileOutputStream(new File("files/" + s + "_" + v + "_evaluation.txt"), true));

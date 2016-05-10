@@ -1,0 +1,173 @@
+FIFO_DL_E_0.75
+data/sample-data-1st-02m53s
+running time = 20.376 seconds
+throughtput = 912.2006281900274 triples/second
+average sparql time = 0.1565 second
+eviction rate = 506.25686059275523 triples/second
+average filter time = 0.865 second
+average filtered triples = 12.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-1st-04m26s
+running time = 32.233 seconds
+throughtput = 1049.7006173797042 triples/second
+average sparql time = 0.157 second
+eviction rate = 354.1555815685857 triples/second
+average filter time = 0.734 second
+average filtered triples = 5.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-1st-07m04s
+running time = 24.939 seconds
+throughtput = 1479.6904446850315 triples/second
+average sparql time = 0.1905 second
+eviction rate = 168.30324147397317 triples/second
+average filter time = 0.6865 second
+average filtered triples = 6.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-1st-12m21s
+running time = 62.807 seconds
+throughtput = 207.1902813380674 triples/second
+average sparql time = 0.17566666666666667 second
+eviction rate = 278.4810126582278 triples/second
+average filter time = 0.7963333333333332 second
+average filtered triples = 6.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-1st-12m44s
+throughtput = 547.5611191774908 triples/second
+average sparql time = 0.3515 second
+eviction rate = 102.55973664793689 triples/second
+average filter time = 1.3985 second
+average filtered triples = 10.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-1st-15m28s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.3521
+throughtput = 111.2689119471335 triples/second
+average sparql time = 0.255 second
+eviction rate = 48.70869202999167 triples/second
+average filter time = 1.44675 second
+average filtered triples = 6.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-1st-20m40s
+throughtput = 235.37482674902097 triples/second
+average sparql time = 0.159 second
+eviction rate = 22.833863275039747 triples/second
+average filter time = 1.125 second
+average filtered triples = 7.0
+maxTripleUsed = 41
+
+FIFO_E_0.75
+data/sample-data-1st-21m11s
+throughtput = 109.95589264497649 triples/second
+average sparql time = 0.676 second
+eviction rate = 29.192671632776324 triples/second
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-1st-22m07s
+throughtput = 78.30268968644523 triples/second
+average sparql time = 0.211 second
+eviction rate = 36.698926623262366 triples/second
+average filter time = 1.414 second
+average filtered triples = 9.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-1st-23m04s
+throughtput = 71.90915593406088 triples/second
+average sparql time = 0.3745 second
+eviction rate = 6.0537346726673995 triples/second
+average filter time = 2.7835 second
+average filtered triples = 9.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-2nd-00m52s
+throughtput = 1147.1320252358626 triples/second
+average sparql time = 0.156 second
+eviction rate = 180.1822067259026 triples/second
+average filter time = 0.375 second
+average filtered triples = 6.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-2nd-10m30s
+throughtput = 421.0152043615184 triples/second
+average sparql time = 0.1175 second
+eviction rate = 170.7574906676357 triples/second
+average filter time = 0.3575 second
+average filtered triples = 8.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-2nd-10m45s
+throughtput = 488.8168871049641 triples/second
+average sparql time = 0.103 second
+eviction rate = 173.13845258871436 triples/second
+average filter time = 0.65 second
+average filtered triples = 8.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-2nd-12m16s
+throughtput = 1750.9373110260028 triples/second
+average sparql time = NaN second
+eviction rate = 109.00720924172674 triples/second
+average filter time = NaN second
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-2nd-17m38s
+throughtput = 637.1191619380184 triples/second
+average sparql time = 0.232 second
+eviction rate = 109.971696952295 triples/second
+average filter time = 0.9665 second
+average filtered triples = 7.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-2nd-20m25s
+throughtput = 878.4040908550362 triples/second
+average sparql time = 0.12825 second
+eviction rate = 135.30852677009216 triples/second
+average filter time = 0.54925 second
+average filtered triples = 7.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-2nd-21m43s
+throughtput = 766.0705515268829 triples/second
+average sparql time = 0.14025 second
+eviction rate = 149.32738995462867 triples/second
+average filter time = 0.721 second
+average filtered triples = 8.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-2nd-24m46s
+throughtput = 886.9622737673097 triples/second
+average sparql time = 0.13333333333333333 second
+eviction rate = 126.9802384452066 triples/second
+average filter time = 0.836 second
+average filtered triples = 8.0
+maxTripleUsed = 41
+
+FIFO_DL_E_0.75
+data/sample-data-2nd-28m11s
+throughtput = 944.8191890904664 triples/second
+average sparql time = 0.125 second
+eviction rate = 134.66145504980457 triples/second
+average filter time = 0.703 second
+average filtered triples = 8.0
+maxTripleUsed = 41
+

@@ -1,0 +1,307 @@
+FIFO_E_0.25
+data/sample-data-1st-02m53s
+running time = 112.597 seconds
+throughtput = 165.07544605984174 triples/second
+average sparql time = 0.05838 second
+eviction rate = 219.38224663192977 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-1st-04m26s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.1479
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.164
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.1777
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.1894
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.225
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.2309
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.2509
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.2758
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.2782
+running time = 165.962 seconds
+throughtput = 203.87197069208617 triples/second
+average sparql time = 0.06185897435897436 second
+eviction rate = 224.35802724505777 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-1st-07m04s
+running time = 156.919 seconds
+throughtput = 235.1659136242265 triples/second
+average sparql time = 0.07794444444444444 second
+eviction rate = 187.10673998072673 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-1st-12m21s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4173
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4214
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.426
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4306
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4353
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4368
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4399
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4419
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4516
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4568
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4614
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4634
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4665
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.4711
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.5868
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.5935
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.5976
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.5986
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.6006
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.6032
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.6134
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.7169
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.7266
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.7312
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.7358
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.7752
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.7793
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.7839
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.7896
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.7988
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.808
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8213
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8223
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8239
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8259
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8305
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8331
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8367
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8561
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8679
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8776
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8873
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.8945
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.9017
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.9089
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.9176
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.9222
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.9278
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.936
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.9452
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.9519
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 12:21.9662
+running time = 152.617 seconds
+throughtput = 85.26573055426329 triples/second
+average sparql time = 0.08339823008849558 second
+eviction rate = 223.92963655663954 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-1st-12m44s
+running time = 256.095 seconds
+throughtput = 108.97128018899235 triples/second
+average sparql time = 0.06564705882352942 second
+eviction rate = 153.38752619951285 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-1st-15m28s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.3603
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.3844
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.412
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.4248
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.4443
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.4535
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.4586
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.4678
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.473
+throughtput = 47.566437927595096 triples/second
+average sparql time = 0.18753191489361704 second
+eviction rate = 56.38562589670015 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-1st-20m40s
+throughtput = 31.50728427344042 triples/second
+average sparql time = 0.09424324324324325 second
+eviction rate = 23.133043320645278 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-1st-21m11s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 21:13.805
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 21:13.8311
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 21:13.8695
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 21:13.8788
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 21:13.9023
+throughtput = 24.470141993325207 triples/second
+average sparql time = 0.0768984375 second
+eviction rate = 21.17484867414859 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-1st-22m07s
+throughtput = 20.70427859286035 triples/second
+average sparql time = 0.07806425702811244 second
+eviction rate = 21.60477675674544 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-1st-23m04s
+throughtput = 8.743099226197893 triples/second
+average sparql time = 0.11092105263157895 second
+eviction rate = 6.134418368313359 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-2nd-00m52s
+throughtput = 122.27660668380463 triples/second
+average sparql time = 0.06101369863013698 second
+eviction rate = 112.2595210483846 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-2nd-10m30s
+throughtput = 91.94668428409082 triples/second
+average sparql time = 0.05000258397932816 second
+eviction rate = 112.18605915738675 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-2nd-10m45s
+throughtput = 100.23650977028308 triples/second
+average sparql time = 0.051000000000000004 second
+eviction rate = 111.6216456766499 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-2nd-12m16s
+throughtput = 139.17702515197252 triples/second
+average sparql time = NaN second
+eviction rate = 110.28856016843923 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-2nd-17m38s
+throughtput = 114.3914909357651 triples/second
+average sparql time = 0.04821863799283154 second
+eviction rate = 107.42400220583167 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-2nd-20m25s
+throughtput = 119.3577642536706 triples/second
+average sparql time = 0.05347846889952153 second
+eviction rate = 105.35240245672614 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-2nd-21m43s
+throughtput = 124.92667930884207 triples/second
+average sparql time = 0.05568666666666666 second
+eviction rate = 108.79915179072067 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-2nd-24m46s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.4927
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.4948
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.4953
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.4958
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.4963
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.499
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5148
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5191
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5296
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5581
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5703
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5734
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5877
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5882
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5903
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5924
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5935
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5951
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.5998
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.6183
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.6305
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.631
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.6405
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.6431
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.6447
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.6463
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.6743
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.6954
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7039
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7054
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.706
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7139
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7171
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7197
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7234
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7244
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7392
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7424
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7519
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7603
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7672
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.791
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.7994
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.801
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8058
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8353
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.848
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8506
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8538
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8596
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8628
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8659
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8691
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8712
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8728
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8733
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.876
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.8781
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.904
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.9082
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.9156
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.9187
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.9309
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.9372
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.942
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.9457
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:50.9504
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:51.4768
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:51.4816
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:51.489
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:51.4895
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_B1 commits offside foul at 24:51.4948
+throughtput = 121.70200989173843 triples/second
+average sparql time = 0.06355681818181819 second
+eviction rate = 105.80892073866482 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-2nd-28m11s
+throughtput = 129.1883234719258 triples/second
+average sparql time = 0.04793939393939394 second
+eviction rate = 111.26624731910239 triples/second
+maxTripleUsed = 13
+
+FIFO_E_0.25
+data/sample-data-2nd-28m24s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.443
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.4553
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.462
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.463
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.4702
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5004
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5183
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.526
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5275
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5347
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5408
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5562
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5587
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5598
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:28.5603
+throughtput = 133.6225087542916 triples/second
+average sparql time = 0.04783333333333333 second
+eviction rate = 111.90287949400799 triples/second
+maxTripleUsed = 13
+

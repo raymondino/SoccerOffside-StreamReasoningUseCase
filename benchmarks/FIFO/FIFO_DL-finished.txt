@@ -1,0 +1,183 @@
+FIFO_DL
+data/sample-data-1st-02m53s
+running time = 34.933 seconds
+throughtput = 532.0756877451121 triples/second
+average sparql time = 0.2225 second
+average filter time = 1.339 second
+average filtered triples = 13.0
+maxTripleUsed = 55
+
+FIFO_DL
+data/sample-data-1st-04m26s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.1401
+running time = 34.093 seconds
+throughtput = 992.4324641421991 triples/second
+average sparql time = 0.685 second
+average filter time = 0.8055 second
+average filtered triples = 8.0
+maxTripleUsed = 55
+
+FIFO_DL
+data/sample-data-1st-07m04s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 7:7.0811
+running time = 23.19 seconds
+throughtput = 1591.289348857266 triples/second
+average sparql time = 0.3055 second
+average filter time = 1.4815 second
+average filtered triples = 11.0
+maxTripleUsed = 48
+
+FIFO_DL
+data/sample-data-1st-12m21s
+running time = 51.134 seconds
+throughtput = 254.48820745492236 triples/second
+average sparql time = 0.17 second
+average filter time = 0.64 second
+average filtered triples = 6.0
+maxTripleUsed = 52
+
+FIFO_DL
+data/sample-data-1st-12m44s
+running time = 49.13 seconds
+throughtput = 568.0236108284143 triples/second
+average sparql time = 0.154 second
+average filter time = 0.74 second
+average filtered triples = 11.0
+maxTripleUsed = 52
+
+FIFO_DL
+data/sample-data-1st-15m28s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.3045
+throughtput = 261.3164522496767 triples/second
+average sparql time = 0.2815 second
+eviction rate = 86.98250390093291 triples/second
+average filter time = 3.919 second
+average filtered triples = 8.0
+maxTripleUsed = 50
+
+FIFO_DL
+data/sample-data-1st-20m40s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 20:43.0237
+throughtput = 265.38885101473596 triples/second
+average sparql time = 0.4045 second
+eviction rate = 26.62277998115819 triples/second
+average filter time = 1.3395 second
+average filtered triples = 9.0
+maxTripleUsed = 50
+
+FIFO_DL
+data/sample-data-1st-21m11s
+throughtput = 109.88292470292022 triples/second
+average sparql time = 2.9875 second
+eviction rate = 30.364301594804196 triples/second
+average filter time = 1.9775 second
+average filtered triples = 9.0
+maxTripleUsed = 52
+
+FIFO_DL
+data/sample-data-1st-22m07s
+throughtput = 75.93806933513571 triples/second
+average sparql time = 0.22533333333333336 second
+eviction rate = 34.73228173000541 triples/second
+average filter time = 1.8836666666666666 second
+average filtered triples = 11.0
+maxTripleUsed = 52
+
+FIFO_DL
+data/sample-data-1st-23m04s
+throughtput = 245.80260726273158 triples/second
+average sparql time = 0.5225 second
+eviction rate = 20.59867608050564 triples/second
+average filter time = 1.744 second
+average filtered triples = 11.0
+maxTripleUsed = 51
+FIFO_DL
+data/sample-data-2nd-00m52s
+throughtput = 1136.1716764441726 triples/second
+average sparql time = 0.219 second
+eviction rate = 177.44582130934194 triples/second
+average filter time = 0.594 second
+average filtered triples = 8.0
+maxTripleUsed = 57
+
+FIFO_DL
+data/sample-data-2nd-10m30s
+throughtput = 442.9336531724637 triples/second
+average sparql time = 0.1485 second
+eviction rate = 175.19217330538083 triples/second
+average filter time = 0.703 second
+average filtered triples = 12.0
+maxTripleUsed = 58
+
+FIFO_DL
+data/sample-data-2nd-10m45s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A1 commits offside foul at 10:46.1604
+throughtput = 480.90967481028616 triples/second
+average sparql time = 0.1795 second
+eviction rate = 170.6352113707964 triples/second
+average filter time = 0.831 second
+average filtered triples = 10.0
+maxTripleUsed = 51
+
+FIFO_DL
+data/sample-data-2nd-12m16s
+throughtput = 1764.524254489315 triples/second
+average sparql time = NaN second
+eviction rate = 108.59251449657354 triples/second
+average filter time = NaN second
+maxTripleUsed = 50
+
+FIFO_DL
+data/sample-data-2nd-17m38s
+throughtput = 637.9545454545454 triples/second
+average sparql time = 0.174 second
+eviction rate = 109.81718006511396 triples/second
+average filter time = 1.215 second
+average filtered triples = 10.0
+maxTripleUsed = 50
+
+FIFO_DL
+data/sample-data-2nd-20m25s
+throughtput = 899.5722267046234 triples/second
+average sparql time = 0.14833333333333334 second
+eviction rate = 136.70366795366795 triples/second
+average filter time = 1.0356666666666667 second
+average filtered triples = 11.0
+maxTripleUsed = 56
+
+FIFO_DL
+data/sample-data-2nd-21m43s
+throughtput = 787.1869851118468 triples/second
+average sparql time = 0.14733333333333334 second
+eviction rate = 151.84235956472418 triples/second
+average filter time = 1.1386666666666667 second
+average filtered triples = 12.0
+maxTripleUsed = 58
+
+FIFO_DL
+data/sample-data-2nd-24m46s
+throughtput = 560.9560386804745 triples/second
+average sparql time = 0.1855 second
+eviction rate = 78.9255770624159 triples/second
+average filter time = 0.882 second
+average filtered triples = 12.0
+maxTripleUsed = 54
+
+FIFO_DL
+data/sample-data-2nd-28m11s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:12.9889
+throughtput = 933.2515514504258 triples/second
+average sparql time = 0.164 second
+eviction rate = 131.98640483383687 triples/second
+average filter time = 1.1095 second
+average filtered triples = 11.0
+maxTripleUsed = 51
+
+FIFO_DL
+data/sample-data-2nd-28m24s
+throughtput = 1376.4372157040468 triples/second
+average sparql time = 0.164 second
+eviction rate = 120.34116135062507 triples/second
+average filter time = 0.531 second
+average filtered triples = 9.0
+maxTripleUsed = 55

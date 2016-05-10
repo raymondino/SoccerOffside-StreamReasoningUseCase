@@ -1,0 +1,145 @@
+FIFO
+data/sample-data-1st-02m53s
+running time = 28.14 seconds
+throughtput = 660.5188343994314 triples/second
+average sparql time = 0.9845 second
+maxTripleUsed = 55
+
+FIFO
+data/sample-data-1st-04m26s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 4:28.1401
+running time = 38.096 seconds
+throughtput = 888.1509869802604 triples/second
+average sparql time = 0.9335 second
+maxTripleUsed = 55
+
+FIFO
+data/sample-data-1st-07m04s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 7:7.0811
+running time = 28.871 seconds
+throughtput = 1278.1684042811125 triples/second
+average sparql time = 0.977 second
+maxTripleUsed = 50
+
+FIFO
+data/sample-data-1st-12m21s
+running time = 57.022 seconds
+throughtput = 228.2101644979131 triples/second
+average sparql time = 0.262 second
+maxTripleUsed = 52
+
+FIFO
+data/sample-data-1st-12m44s
+running time = 51.114 seconds
+throughtput = 545.9756622451774 triples/second
+average sparql time = 0.901 second
+maxTripleUsed = 52
+
+FIFO
+data/sample-data-1st-15m28s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.3045
+throughtput = 324.30377608199814 triples/second
+average sparql time = 1.401 second
+eviction rate = 139.6439611981665 triples/second
+maxTripleUsed = 50
+
+FIFO
+data/sample-data-1st-20m40s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 20:43.0237
+throughtput = 252.62322414464424 triples/second
+average sparql time = 0.9325 second
+eviction rate = 25.740792802923814 triples/second
+maxTripleUsed = 50
+
+FIFO
+data/sample-data-1st-21m11s
+throughtput = 113.34055853250165 triples/second
+average sparql time = 1.031 second
+eviction rate = 30.528103631867506 triples/second
+maxTripleUsed = 52
+
+FIFO
+data/sample-data-1st-22m07s
+throughtput = 68.0027702389428 triples/second
+average sparql time = 1.087 second
+eviction rate = 33.993112506616306 triples/second
+maxTripleUsed = 52
+
+FIFO
+data/sample-data-1st-23m04s
+throughtput = 237.64843307206348 triples/second
+average sparql time = 0.8595 second
+eviction rate = 19.882560545211145 triples/second
+maxTripleUsed = 51
+
+FIFO
+data/sample-data-2nd-00m52s
+throughtput = 877.9569416142466 triples/second
+average sparql time = 2.126 second
+eviction rate = 146.52151567537263 triples/second
+maxTripleUsed = 57
+
+FIFO
+data/sample-data-2nd-10m30s
+throughtput = 443.73460865841037 triples/second
+average sparql time = 0.8045 second
+eviction rate = 178.8670091324201 triples/second
+maxTripleUsed = 58
+
+FIFO
+data/sample-data-2nd-10m45s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A1 commits offside foul at 10:46.1604
+throughtput = 510.7759165213876 triples/second
+average sparql time = 0.2485 second
+eviction rate = 177.24505327245052 triples/second
+maxTripleUsed = 51
+
+FIFO
+data/sample-data-2nd-12m16s
+throughtput = 1742.507522567703 triples/second
+average sparql time = NaN second
+eviction rate = 111.86532717893023 triples/second
+maxTripleUsed = 50
+
+FIFO
+data/sample-data-2nd-17m38s
+throughtput = 638.2446566621192 triples/second
+average sparql time = 0.9755 second
+eviction rate = 109.05247450882864 triples/second
+maxTripleUsed = 50
+
+FIFO
+data/sample-data-2nd-20m25s
+throughtput = 930.5094087079757 triples/second
+average sparql time = 0.4713333333333333 second
+eviction rate = 139.70799917746245 triples/second
+maxTripleUsed = 58
+
+FIFO
+data/sample-data-2nd-21m43s
+throughtput = 793.2153701183122 triples/second
+average sparql time = 0.9123333333333333 second
+eviction rate = 151.70213659068966 triples/second
+maxTripleUsed = 58
+
+FIFO
+data/sample-data-2nd-24m46s
+throughtput = 668.4018272303078 triples/second
+average sparql time = 0.76 second
+eviction rate = 95.7493564387518 triples/second
+maxTripleUsed = 54
+
+FIFO
+data/sample-data-2nd-28m11s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 28:12.9889
+throughtput = 950.816056462285 triples/second
+average sparql time = 0.57 second
+eviction rate = 131.79074446680082 triples/second
+maxTripleUsed = 52
+
+FIFO
+data/sample-data-2nd-28m24s
+throughtput = 1347.8410939991124 triples/second
+average sparql time = 0.8285 second
+eviction rate = 119.17158394076132 triples/second
+maxTripleUsed = 55
