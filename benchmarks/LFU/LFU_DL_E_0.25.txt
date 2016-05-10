@@ -77,12 +77,33 @@ average filtered triples = 0.0
 maxTripleUsed = 13
 
 LFU_DL_E_0.25
+data/sample-data-1st-21m11s
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 21:13.6443
+throughtput = 46.241817091634886 triples/second
+average sparql time = 0.047 second
+average explanation time = 0.009708565675340768 second
+eviction rate = 111.0777507490763 triples/second
+average filter time = 0.055 second
+average filtered triples = 0.0
+maxTripleUsed = 13
+
+LFU_DL_E_0.25
 data/sample-data-1st-22m07s
 throughtput = 6.447931673335208 triples/second
 average sparql time = 0.037333333333333336 second
 average explanation time = 0.016097354024785085 second
 eviction rate = 10.027243099997433 triples/second
 average filter time = 0.08966666666666667 second
+average filtered triples = 0.0
+maxTripleUsed = 13
+
+LFU_DL_E_0.25
+data/sample-data-1st-23m04s
+throughtput = 38.483924224193416 triples/second
+average sparql time = 0.0315 second
+average explanation time = 0.009759448604155304 second
+eviction rate = 109.4462558141401 triples/second
+average filter time = 0.0545 second
 average filtered triples = 0.0
 maxTripleUsed = 13
 
