@@ -161,3 +161,10 @@ average explanation time = 0.01627363737486096 second
 eviction rate = 122.12772306774097 triples/second
 maxTripleUsed = 27
 
+LRU_E_0.5
+data/sample-data-2nd-28m24s
+throughtput = 195.05906195439647 triples/second
+average sparql time = 0.1015 second
+average explanation time = 0.012119799054373524 second
+eviction rate = 111.51042823396394 triples/second
+maxTripleUsed = 27
