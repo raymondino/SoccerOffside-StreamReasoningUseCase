@@ -49,11 +49,10 @@ maxTripleUsed = 41
 
 FIFO_DL_E_0.75
 data/sample-data-1st-15m28s
-http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A7 commits offside foul at 15:29.3521
-throughtput = 111.2689119471335 triples/second
-average sparql time = 0.255 second
-eviction rate = 48.70869202999167 triples/second
-average filter time = 1.44675 second
+throughtput = 458.3242135423921 triples/second
+average sparql time = 0.17733333333333334 second
+eviction rate = 170.03711762447205 triples/second
+average filter time = 0.5626666666666666 second
 average filtered triples = 6.0
 maxTripleUsed = 41
 
