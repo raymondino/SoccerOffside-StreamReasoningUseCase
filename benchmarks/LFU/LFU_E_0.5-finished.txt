@@ -64,10 +64,11 @@ maxTripleUsed = 27
 
 LFU_E_0.5
 data/sample-data-1st-21m11s
-throughtput = 59.17679107942152 triples/second
-average sparql time = 0.1155 second
-average explanation time = 0.020987951807228913 second
-eviction rate = 24.68903583021043 triples/second
+http://tw.rpi.edu/web/Ontologies/2016/Soccer_Offside/player_A6 commits offside foul at 21:13.6443
+throughtput = 137.17026184133584 triples/second
+average sparql time = 0.1035 second
+average explanation time = 0.019316801780321094 second
+eviction rate = 116.77625603952482 triples/second
 maxTripleUsed = 27
 
 LFU_E_0.5
