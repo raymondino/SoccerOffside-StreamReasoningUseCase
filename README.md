@@ -4,4 +4,4 @@ SOSI stands for "socer offside semantic importance"
 > semantic importance is a concept proposed by [Rui Yan et al](http://events.linkeddata.org/ldow2016/papers/LDOW2016_paper_13.pdf).
 It deals with the problem of data eviction in the stream reasoning context
 
-
+More to be updated.
