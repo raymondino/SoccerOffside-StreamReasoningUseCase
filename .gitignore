@@ -1,0 +1,3 @@
+/bin/
+stardog.log
+/${sys:stardog.home}/
