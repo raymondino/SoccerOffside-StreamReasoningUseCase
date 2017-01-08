@@ -10,7 +10,7 @@ The original streaming data is in csv format, for more details, please refer to 
 The dataset comes with a video record of the soccer training match. One of our collaborators is a certified referee who can provide us a list of soccer offside cases. He provided 20 cases composing *sure offside offence*, *sure no offside offence* or *unsure offside offence so no flag*. We evaluate our system against his list.
 
 ### Installation
-1. this system requires [stardog](http://stardog.com/), download and install it in your local machine. We use the default port as 5820.
+1. this system is implemented with [stardog](http://stardog.com/)v4.0-rc3, but can work with the latest stardog version 4.2.2 (as of Jan, 7, 2017), download and install it in your local machine. We use the default port as 5820.
 2. start your stardog service, create a new database named "db", edit its configuration with "reasoning type - DL", and "query across graphs - true". You need to put the db offline first before hit the "edit" button. 
    * to set reasoning type as DL is very important. The new versions of stardog doesn't support to specify reasoning type in their APIs, instead, they use SL (DL + customer specified rules) as the default reasoning type. If use SL, for this use case, no correct results will be given, thus users has to manually set it to DL. Stardog developers claim that the reasoning type is set by evaluating the query, ontology and data loaded.
 3. make sure your java version is 1.8 
