@@ -15,7 +15,7 @@ import com.tw.rpi.edu.si.utilities.SnarlClient;
 
 public class Main {
 	// global variables
-	private static String serverURL = "snarl://localhost:5820/";
+	private static String serverURL = "http://localhost:5820/";
 	private static String username = "admin";
 	private static String password = "admin";
 	private static String backgroundOntologyPath = "files/soccer_offside.owl";
@@ -58,26 +58,26 @@ public class Main {
 		PrintWriter metricRecorder = null;
 		
 		ArrayList<String> streamingDataPaths = new ArrayList<String>();
-		streamingDataPaths.add("data/sample-data-1st-02m53s");
-		streamingDataPaths.add("data/sample-data-1st-04m26s");
-		streamingDataPaths.add("data/sample-data-1st-07m04s");
-		streamingDataPaths.add("data/sample-data-1st-12m21s");
-		streamingDataPaths.add("data/sample-data-1st-12m44s");
-		streamingDataPaths.add("data/sample-data-1st-15m28s");
-		streamingDataPaths.add("data/sample-data-1st-20m40s");
-		streamingDataPaths.add("data/sample-data-1st-21m11s");
-		streamingDataPaths.add("data/sample-data-1st-22m07s");
-		streamingDataPaths.add("data/sample-data-1st-23m04s");
-		streamingDataPaths.add("data/sample-data-2nd-00m52s");
-		streamingDataPaths.add("data/sample-data-2nd-10m30s");
-		streamingDataPaths.add("data/sample-data-2nd-10m45s");
-		streamingDataPaths.add("data/sample-data-2nd-12m16s");
-		streamingDataPaths.add("data/sample-data-2nd-17m38s");
-		streamingDataPaths.add("data/sample-data-2nd-20m25s");
-		streamingDataPaths.add("data/sample-data-2nd-21m43s");
-		streamingDataPaths.add("data/sample-data-2nd-24m46s");
-		streamingDataPaths.add("data/sample-data-2nd-28m11s");
-		streamingDataPaths.add("data/sample-data-2nd-28m24s");
+		streamingDataPaths.add("files/data/sample-data-1st-02m53s");
+		streamingDataPaths.add("files/data/sample-data-1st-04m26s");
+		streamingDataPaths.add("files/data/sample-data-1st-07m04s");
+		streamingDataPaths.add("files/data/sample-data-1st-12m21s");
+		streamingDataPaths.add("files/data/sample-data-1st-12m44s");
+		streamingDataPaths.add("files/data/sample-data-1st-15m28s");
+		streamingDataPaths.add("files/data/sample-data-1st-20m40s");
+		streamingDataPaths.add("files/data/sample-data-1st-21m11s");
+		streamingDataPaths.add("files/data/sample-data-1st-22m07s");
+		streamingDataPaths.add("files/data/sample-data-1st-23m04s");
+		streamingDataPaths.add("files/data/sample-data-2nd-00m52s");
+		streamingDataPaths.add("files/data/sample-data-2nd-10m30s");
+		streamingDataPaths.add("files/data/sample-data-2nd-10m45s");
+		streamingDataPaths.add("files/data/sample-data-2nd-12m16s");
+		streamingDataPaths.add("files/data/sample-data-2nd-17m38s");
+		streamingDataPaths.add("files/data/sample-data-2nd-20m25s");
+		streamingDataPaths.add("files/data/sample-data-2nd-21m43s");
+		streamingDataPaths.add("files/data/sample-data-2nd-24m46s");
+		streamingDataPaths.add("files/data/sample-data-2nd-28m11s");
+		streamingDataPaths.add("files/data/sample-data-2nd-28m24s");
 		
 		for(String i:streamingDataPaths) {			
 			// run strategies without domain literate & cache eviction
